@@ -8,6 +8,7 @@
   * [Select](sql-server/select.md)
   * [Joints](sql-server/joints.md)
   * [Functions](sql-server/functions/README.md)
+    * [Date Functions](sql-server/functions/date-functions.md)
     * [Rank Functions](sql-server/functions/windows-functions.md)
     * [Advanced Functions](sql-server/functions/advanced-functions.md)
 * [Questions](questions.md)

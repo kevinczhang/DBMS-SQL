@@ -84,3 +84,51 @@ The following output shows the employees who have the highest salary in their de
 
 ![SQL DENSE\_RANK Function find nth highest value](https://www.sqltutorial.org/wp-content/uploads/2018/09/SQL-DENSE_RANK-Function-find-nth-highest-value.png)
 
+## `ROW_NUMBER()` Function
+
+The `ROW_NUMBER()` is a [window function](https://www.sqltutorial.org/sql-window-functions/) that assigns a sequential integer number to each row in the query’s result set.
+
+```sql
+SELECT 
+    ROW_NUMBER() OVER (
+            ORDER BY salary
+    ) row_num, 
+    first_name, 
+    last_name, 
+    salary
+FROM
+    employees;
+```
+
+The following picture shows the partial result set:
+
+![SQL ROW\_NUMBER Function Example](https://www.sqltutorial.org/wp-content/uploads/2018/09/SQL-ROW_NUMBER-Function-Example.png)
+
+##  `PERCENT_RANK()` function
+
+The `PERCENT_RANK()` function returns a percentile ranking number which ranges from zero to one.
+
+For a specific row, `PERCENT_RANK()` uses the following formula to calculate the percentile rank:
+
+\(rank - 1\) / \(total\_rows - 1\)
+
+In this formula, `rank` is the rank of the row. `total_rows` is the number of rows that are being evaluated.
+
+```sql
+SELECT
+    first_name,
+    last_name,
+    salary,
+    ROUND(
+        PERCENT_RANK() OVER (
+            ORDER BY salary
+        ) 
+    ,2) percentile_rank
+FROM
+    employees;
+```
+
+The following picture shows the output:
+
+![SQL PERCENT\_RANK Function Over Result Set Example](https://www.sqltutorial.org/wp-content/uploads/2018/09/SQL-PERCENT_RANK-Function-Over-Result-Set-Example.png)
+
