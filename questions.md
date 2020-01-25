@@ -21,7 +21,7 @@ END
 ## Department Highest Salary
 
 ```sql
-// Solution 1
+-- Solution 1
 Select d.Name as Department, e3.Name as Employee, e3.Salary from Department d
 INNER JOIN (
     Select e1.DepartmentId, e1.Name, e1.Salary from Employee e1
@@ -32,7 +32,7 @@ INNER JOIN (
 ) e3 ON d.Id = e3.DepartmentId;
 
 
-// Solution 2
+-- Solution 2
 SELECT 
     Department, Employee, Salary 
 FROM (
