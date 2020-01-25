@@ -1,4 +1,4 @@
-# Windows Functions
+# Rank Functions
 
 ### `DENSE_RANK()` function
 
