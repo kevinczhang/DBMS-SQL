@@ -7,5 +7,6 @@
 * [SQL Server](sql-server/README.md)
   * [Select](sql-server/select.md)
   * [Joints](sql-server/joints.md)
+  * [Advanced Functions](sql-server/advanced-functions.md)
 * [Questions](questions.md)
 
