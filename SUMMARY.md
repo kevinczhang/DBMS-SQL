@@ -1,9 +1,9 @@
 # Table of contents
 
 * [Overview](README.md)
-* [SQL](sql/README.md)
-  * [Basics](sql/basics.md)
-  * [Advanced](sql/advanced.md)
+* [Basics](basics.md)
+* [Advanced](advanced.md)
+* [Oracle SQL](oracle-sql.md)
 * [SQL Server](sql-server/README.md)
   * [Select](sql-server/select.md)
   * [Joints](sql-server/joints.md)
