@@ -13,7 +13,7 @@
     * [Math/Numeric Functions](sql-server/functions/math-numeric-functions.md)
     * [Rank Functions](sql-server/functions/windows-functions.md)
     * [Advanced Functions](sql-server/functions/advanced-functions.md)
-* [Questions](questions.md)
+* [Questions](questions/README.md)
   * [Department Highest Salary](questions/department-highest-salary.md)
   * [Nth Highest Salary](questions/nth-highest-salary.md)
   * [Trips and Users](questions/trips-and-users.md)

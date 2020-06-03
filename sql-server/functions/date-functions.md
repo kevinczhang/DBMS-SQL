@@ -71,7 +71,9 @@ DATEADD\(_interval_, _number_, _date_\)
       <td style="text-align:left">Required. The date that will be modified</td>
     </tr>
   </tbody>
-</table>## DATEDIFF\(\)
+</table>
+
+## DATEDIFF\(\)
 
 The DATEDIFF\(\) function returns the difference between two dates.
 
@@ -115,7 +117,9 @@ DATEDIFF\(_interval_, _date1_, _date2_\)
       <td style="text-align:left">Required. The two dates to calculate the difference between</td>
     </tr>
   </tbody>
-</table>```sql
+</table>
+
+```sql
 SELECT DATEDIFF(month, '2017/08/25', '2011/08/25') AS DateDiff;
 ```
 
@@ -181,7 +185,9 @@ DATENAME\(_interval_, _date_\)
       <td style="text-align:left">Required. The date to use</td>
     </tr>
   </tbody>
-</table>```sql
+</table>
+
+```sql
 SELECT DATENAME(yy, '2017/08/25') AS DatePartString;
 ```
 
@@ -231,7 +237,9 @@ DATEPART\(_interval_, _date_\)
       <td style="text-align:left">Required. The date to use</td>
     </tr>
   </tbody>
-</table>## DAY\(\)
+</table>
+
+## DAY\(\)
 
 The DAY\(\) function returns the day of the month \(from 1 to 31\) for a specified date.
 

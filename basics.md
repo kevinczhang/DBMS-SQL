@@ -66,7 +66,7 @@ FROM Store_Information
 GROUP BY Store_Name, Product_ID;
 ```
 
-**Join** 
+### **Join** 
 
  Place an "\(+\)" in the [**WHERE**](https://www.1keydata.com/sql/sqlwhere.html) clause on the other side of the table for which we want to include all the rows
 
@@ -77,7 +77,7 @@ WHERE A1.Store_Name = A2.Store_Name (+)
 GROUP BY A1.Store_Name;
 ```
 
- **INSERT INTO SELECT.**
+###  **INSERT INTO SELECT.**
 
 ```sql
 INSERT INTO "table1" ("column1", "column2", ...)
@@ -85,7 +85,7 @@ SELECT "column3", "column4", ...
 FROM "table2";
 ```
 
- **UPDATE**
+##  **UPDATE**
 
 ```sql
 UPDATE "table_name"
@@ -100,7 +100,7 @@ DELETE FROM "table_name"
 WHERE "condition";
 ```
 
-#### UNION vs UNION ALL
+## UNION vs UNION ALL
 
 **UNION** and **UNION ALL** both combine the results of two SQL queries. The difference is that, while **UNION** only returns distinct values, **UNION ALL** selects all values. 
 
