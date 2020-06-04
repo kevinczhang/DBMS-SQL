@@ -6,7 +6,9 @@ description: >-
 
 # Overview
 
-## 
+What is ACID property in database?
+
+
 
 ## Data definition language \(DDL\)
 
