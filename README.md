@@ -6,10 +6,6 @@ description: >-
 
 # Overview
 
-What is ACID property in database?
-
-
-
 ## Data definition language \(DDL\)
 
 Data definition language\(DDL\) allows you to CREATE, ALTER and DELETE database objects such as schema, tables, view, sequence etc.
