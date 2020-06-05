@@ -4,7 +4,6 @@
 
 ```sql
 SELECT CURRENT_DATE; --2018-07-21
-
 ```
 
  SQL Server does not support `CURRENT_DATE` function. However, it has another function named `GETDATE()` that returns the current date and time. To get the current date, you use the `CAST`\(\) function with the `GETDATE()` function as shown in the following statement:
