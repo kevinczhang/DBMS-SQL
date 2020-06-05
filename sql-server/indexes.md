@@ -26,5 +26,16 @@ A table may have one or more nonclustered indexes and each non-clustered index m
 
 Besides storing the index key values, the leaf nodes also store row pointers to the data rows that contain the key values. These row pointers are also known as row locators.
 
+## Clustered and non clustered index
 
+There are mainly two type of indexes in SQL, Clustered index and non clustered index. The differences between these two indexes is very important from SQL performance perspective.
+
+1. One table can have only one clustered index but it can have many non clustered index. \(approximately 250\). 
+2. clustered index determines how data is stored physically in table. Actually clustered index stores data in cluster, related data is stored together so it makes simple to retrieve data.
+3. reading from a clustered index is much faster than reading from non clustered index from the same table.
+4. clustered index sort and store data rows in the table or view based on their key value, while non cluster have a structure separate from the data row.
+
+Clustered index alters the table and re-order the way in which the records are stored in the table. Data retrieval is made faster by using the clustered index.
+
+A Non-clustered index does alter the records that are stored in the table but creates a completely different object within the table.
 
