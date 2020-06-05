@@ -1,3 +1,7 @@
+---
+description: 'SQL Server is a relational database management system, or RDBMS'
+---
+
 # SQL Server
 
 ## IS NULL \| IS NOT NULL

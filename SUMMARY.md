@@ -14,6 +14,7 @@
     * [Rank Functions](sql-server/functions/windows-functions.md)
     * [Advanced Functions](sql-server/functions/advanced-functions.md)
   * [Indexes](sql-server/indexes.md)
+  * [Stored Procedure](sql-server/stored-procedure.md)
 * [Questions](questions/README.md)
   * [Department Highest Salary](questions/department-highest-salary.md)
   * [Nth Highest Salary](questions/nth-highest-salary.md)
