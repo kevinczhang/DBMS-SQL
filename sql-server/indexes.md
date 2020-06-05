@@ -39,3 +39,15 @@ Clustered index alters the table and re-order the way in which the records are s
 
 A Non-clustered index does alter the records that are stored in the table but creates a completely different object within the table.
 
+## Unique Index
+
+A unique index ensures the index key columns do not contain any duplicate values. A unique index may consist of one or many columns. If a unique index has one column, the values in this column will be unique. In case the unique index has multiple columns, the combination of values in these columns is unique.
+
+NULL is even not equal to itself. However, when it comes to unique index, SQL Server treats NULL values the same. It means that if you create a unique index on a nullable column, you can only have only one NULL value in this column.
+
+### Unique index vs. `UNIQUE` constraint
+
+ Both unique index and [`UNIQUE` constraint](https://www.sqlservertutorial.net/sql-server-basics/sql-server-unique-constraint/) enforce the uniqueness of values in one or many columns. SQL Server validates duplicates in the same manner for both unique index and unique constraint.
+
+When you create a unique constraint, behind the scene, SQL Server creates a unique index associated with this constraint.
+
