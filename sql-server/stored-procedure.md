@@ -26,3 +26,31 @@ BEGIN
 END;
 ```
 
+## Executing a stored procedure
+
+```sql
+EXECUTE sp_name;
+```
+
+## Modifying a stored procedure
+
+```sql
+ALTER PROCEDURE uspProductList
+    AS
+    BEGIN
+        SELECT 
+            product_name, 
+            list_price
+        FROM 
+            production.products
+        ORDER BY 
+            list_price 
+    END;
+```
+
+## Deleting a stored procedure
+
+```sql
+DROP PROCEDURE sp_name;
+```
+
