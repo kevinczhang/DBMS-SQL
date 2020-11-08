@@ -29,23 +29,31 @@ END;
 ## Executing a stored procedure
 
 ```sql
-EXECUTE sp_name;
+EXECUTE uspFindProducts 
+    @min_list_price = 900, 
+    @max_list_price = 1000;
 ```
 
 ## Modifying a stored procedure
 
 ```sql
-ALTER PROCEDURE uspProductList
-    AS
-    BEGIN
-        SELECT 
-            product_name, 
-            list_price
-        FROM 
-            production.products
-        ORDER BY 
-            list_price 
-    END;
+ALTER PROCEDURE uspFindProducts(
+    @min_list_price AS DECIMAL
+    ,@max_list_price AS DECIMAL
+)
+AS
+BEGIN
+    SELECT
+        product_name,
+        list_price
+    FROM 
+        production.products
+    WHERE
+        list_price >= @min_list_price AND
+        list_price <= @max_list_price
+    ORDER BY
+        list_price;
+END;
 ```
 
 ## Deleting a stored procedure
