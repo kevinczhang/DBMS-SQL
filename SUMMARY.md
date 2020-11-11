@@ -13,6 +13,7 @@
     * [Window Functions](sql-server/functions/window-functions.md)
     * [Date Functions](sql-server/functions/date-functions.md)
     * [String Functions](sql-server/functions/string-functions.md)
+    * [System Functions](sql-server/functions/system-functions.md)
     * [Math/Numeric Functions](sql-server/functions/math-numeric-functions.md)
     * [Rank Functions](sql-server/functions/windows-functions.md)
     * [Advanced Functions](sql-server/functions/advanced-functions.md)
