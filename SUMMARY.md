@@ -9,6 +9,7 @@
   * [Joints](sql-server/joints.md)
   * [Indexes](sql-server/indexes.md)
   * [Functions](sql-server/functions/README.md)
+    * [Aggregate Functions](sql-server/functions/aggregate-functions.md)
     * [Date Functions](sql-server/functions/date-functions.md)
     * [String Functions](sql-server/functions/string-functions.md)
     * [Math/Numeric Functions](sql-server/functions/math-numeric-functions.md)
