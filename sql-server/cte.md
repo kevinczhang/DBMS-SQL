@@ -53,3 +53,30 @@ ORDER BY
     c.category_name;
 ```
 
+## recursive CTE
+
+This example uses a recursive CTE to get all subordinates of the top manager who does not have a manager \(or the value in the `manager_id` column is NULL\):
+
+```sql
+WITH cte_org AS (
+    SELECT       
+        staff_id, 
+        first_name,
+        manager_id
+        
+    FROM       
+        sales.staffs
+    WHERE manager_id IS NULL
+    UNION ALL
+    SELECT 
+        e.staff_id, 
+        e.first_name,
+        e.manager_id
+    FROM 
+        sales.staffs e
+        INNER JOIN cte_org o 
+            ON o.staff_id = e.manager_id
+)
+SELECT * FROM cte_org;
+```
+
