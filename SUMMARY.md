@@ -8,6 +8,7 @@
   * [Select](sql-server/select.md)
   * [Joints](sql-server/joints.md)
   * [Indexes](sql-server/indexes.md)
+  * [CTE](sql-server/cte.md)
   * [Functions](sql-server/functions/README.md)
     * [Aggregate Functions](sql-server/functions/aggregate-functions.md)
     * [Window Functions](sql-server/functions/window-functions.md)
