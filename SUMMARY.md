@@ -10,7 +10,6 @@
   * [Indexes](sql-server/indexes.md)
   * [CTE](sql-server/cte.md)
   * [Functions](sql-server/functions/README.md)
-    * [User-defined function](sql-server/functions/user-defined-function.md)
     * [Aggregate Functions](sql-server/functions/aggregate-functions.md)
     * [Window Functions](sql-server/functions/window-functions.md)
     * [Date Functions](sql-server/functions/date-functions.md)
