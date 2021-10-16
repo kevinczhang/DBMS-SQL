@@ -20,8 +20,7 @@
     * [Advanced Functions](sql-server/functions/advanced-functions.md)
   * [Stored Procedure](sql-server/stored-procedure/README.md)
     * [Variable](sql-server/stored-procedure/variable.md)
-* [Questions](questions/README.md)
+* [Q\&A](questions/README.md)
   * [Department Highest Salary](questions/department-highest-salary.md)
   * [Nth Highest Salary](questions/nth-highest-salary.md)
   * [Trips and Users](questions/trips-and-users.md)
-

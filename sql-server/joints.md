@@ -56,7 +56,7 @@ FROM
         ON e.fullname = c.fullname;
 ```
 
-![](../.gitbook/assets/image%20%283%29.png)
+![](<../.gitbook/assets/image (3).png>)
 
 ## full join
 
@@ -77,4 +77,3 @@ FROM
 Here is the output:
 
 ![SQL Server Joins - full Join](https://cdn.sqlservertutorial.net/wp-content/uploads/SQL-Server-Joins-full-Join.png)
-

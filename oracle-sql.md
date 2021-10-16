@@ -1,6 +1,6 @@
 # Oracle SQL
 
-DENSE\_RANK
+DENSE_RANK
 
 ```sql
 CREATE FUNCTION getNthHighestSalary(N IN NUMBER) RETURN NUMBER IS
@@ -17,4 +17,3 @@ END;
 ```
 
 NULL data will sort to the bottom
-

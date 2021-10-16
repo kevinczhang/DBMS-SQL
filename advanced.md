@@ -77,5 +77,3 @@ SELECT DECODE (Store_Name,
 FROM Store_Information;
 ```
 
-
-

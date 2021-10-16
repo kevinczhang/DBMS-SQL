@@ -12,7 +12,7 @@ description: >-
 
 A clustered index stores data rows in a sorted structure based on its key values. Each table has only one clustered index because data rows can be only sorted in one order. The table that has a clustered index is called a clustered table.
 
- A clustered index organizes data using a special structured so-called [B-tree](https://en.wikipedia.org/wiki/B-tree) \(or balanced tree\) which enables searches, inserts, updates, and deletes in logarithmic amortized time.
+ A clustered index organizes data using a special structured so-called [B-tree](https://en.wikipedia.org/wiki/B-tree) (or balanced tree) which enables searches, inserts, updates, and deletes in logarithmic amortized time.
 
  When you create a table with a [primary key](https://www.sqlservertutorial.net/sql-server-basics/sql-server-primary-key/), SQL Server automatically creates a corresponding clustered index based on columns included in the primary key.
 
@@ -30,7 +30,7 @@ Besides storing the index key values, the leaf nodes also store row pointers to 
 
 There are mainly two type of indexes in SQL, Clustered index and non clustered index. The differences between these two indexes is very important from SQL performance perspective.
 
-1. One table can have only one clustered index but it can have many non clustered index. \(approximately 250\). 
+1. One table can have only one clustered index but it can have many non clustered index. (approximately 250). 
 2. clustered index determines how data is stored physically in table. Actually clustered index stores data in cluster, related data is stored together so it makes simple to retrieve data.
 3. reading from a clustered index is much faster than reading from non clustered index from the same table.
 4. clustered index sort and store data rows in the table or view based on their key value, while non cluster have a structure separate from the data row.
@@ -50,4 +50,3 @@ NULL is even not equal to itself. However, when it comes to unique index, SQL Se
  Both unique index and [`UNIQUE` constraint](https://www.sqlservertutorial.net/sql-server-basics/sql-server-unique-constraint/) enforce the uniqueness of values in one or many columns. SQL Server validates duplicates in the same manner for both unique index and unique constraint.
 
 When you create a unique constraint, behind the scene, SQL Server creates a unique index associated with this constraint.
-

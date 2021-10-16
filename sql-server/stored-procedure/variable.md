@@ -14,5 +14,3 @@ DECLARE @model_year SMALLINT;
 SET @model_year = 2018;
 ```
 
-
-

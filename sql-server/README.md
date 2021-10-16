@@ -1,10 +1,10 @@
 ---
-description: 'SQL Server is a relational database management system, or RDBMS'
+description: SQL Server is a relational database management system, or RDBMS
 ---
 
 # SQL Server
 
-## IS NULL \| IS NOT NULL
+## IS NULL | IS NOT NULL
 
 ```sql
 SELECT
@@ -39,4 +39,3 @@ BEGIN
     );
 END
 ```
-

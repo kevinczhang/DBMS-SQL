@@ -2,15 +2,15 @@
 
 ## Select
 
-| Number of Columns | SQL Syntax |
-| :--- | :--- |
-| 1 | SELECT "column\_name" FROM "table\_name"; |
-| More Than 1 | SELECT "column\_name1"\[, "column\_name2"\] FROM "table\_name"; |
-| All | SELECT \* FROM "table\_name"; |
+| Number of Columns | SQL Syntax                                                  |
+| ----------------- | ----------------------------------------------------------- |
+| 1                 | SELECT "column_name" FROM "table_name";                     |
+| More Than 1       | SELECT "column_name1"\[, "column_name2"] FROM "table_name"; |
+| All               | SELECT \* FROM "table_name";                                |
 
 **DISTINCT**
 
-SELECT DISTINCT "column\_name" FROM "table\_name";
+SELECT DISTINCT "column_name" FROM "table_name";
 
 **Where**
 
@@ -35,8 +35,8 @@ WHERE "column_name" IN ( [SELECT STATEMENT] );
 
 **LIKE**
 
-* **%** \(percent sign\) represents zero, one, or more characters.
-* **\_** \(underscore\) represents exactly one character.
+* **%** (percent sign) represents zero, one, or more characters.
+* **\_** (underscore) represents exactly one character.
 
 Wildcards are used with the [**LIKE**](https://www.1keydata.com/sql/sqllike.html) operator in SQL.
 
@@ -66,9 +66,9 @@ FROM Store_Information
 GROUP BY Store_Name, Product_ID;
 ```
 
-### **Join** 
+### **Join **
 
- Place an "\(+\)" in the [**WHERE**](https://www.1keydata.com/sql/sqlwhere.html) clause on the other side of the table for which we want to include all the rows
+ Place an "(+)" in the [**WHERE**](https://www.1keydata.com/sql/sqlwhere.html) clause on the other side of the table for which we want to include all the rows
 
 ```sql
 SELECT A1.Store_Name, SUM(A2.Sales) SALES
@@ -137,4 +137,3 @@ WHERE EXISTS
 FROM "table_name2"
 WHERE "condition");
 ```
-

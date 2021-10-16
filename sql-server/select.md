@@ -95,7 +95,7 @@ ORDER BY
 
 ### Where
 
-AND \| OR
+AND | OR
 
 ```sql
 SELECT
@@ -146,7 +146,7 @@ ORDER BY
     list_price DESC;
 ```
 
-LIKE \| NOT LIKE
+LIKE | NOT LIKE
 
 ```sql
 SELECT
@@ -163,9 +163,8 @@ ORDER BY
     list_price;
 ```
 
-* The percent wildcard \(%\): any string of zero or more characters.
-* The underscore \(\_\) wildcard: any single character.
-* The \[list of characters\] wildcard: any single character within the specified set.
-* The \[character-character\]: any single character within the specified range.
-* The \[^\]: any single character not within a list or a range.
-
+* The percent wildcard (%): any string of zero or more characters.
+* The underscore (\_) wildcard: any single character.
+* The \[list of characters] wildcard: any single character within the specified set.
+* The \[character-character]: any single character within the specified range.
+* The \[^]: any single character not within a list or a range.

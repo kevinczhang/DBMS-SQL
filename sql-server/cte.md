@@ -72,13 +72,13 @@ FROM   expression_name
 
 The execution order of a recursive CTE is as follows:
 
-* First, execute the anchor member to form the base result set \(R0\), use this result for the next iteration.
-* Second, execute the recursive member with the input result set from the previous iteration \(Ri-1\) and return a sub-result set \(Ri\) until the termination condition is met.
+* First, execute the anchor member to form the base result set (R0), use this result for the next iteration.
+* Second, execute the recursive member with the input result set from the previous iteration (Ri-1) and return a sub-result set (Ri) until the termination condition is met.
 * Third, combine all result sets R0, R1, … Rn using [`UNION ALL`](https://www.sqlservertutorial.net/sql-server-basics/sql-server-union/) operator to produce the final result set.
 
-![](../.gitbook/assets/image%20%289%29.png)
+![](<../.gitbook/assets/image (9).png>)
 
-This example uses a recursive CTE to get all subordinates of the top manager who does not have a manager \(or the value in the `manager_id` column is NULL\):
+This example uses a recursive CTE to get all subordinates of the top manager who does not have a manager (or the value in the `manager_id` column is NULL):
 
 ```sql
 WITH cte_org AS (
@@ -102,4 +102,3 @@ WITH cte_org AS (
 )
 SELECT * FROM cte_org;
 ```
-

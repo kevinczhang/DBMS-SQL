@@ -37,4 +37,3 @@ SELECT  A.request_at AS Day,
 FROM      total_number_of_requests AS A 
 LEFT JOIN total_number_of_cancels  AS B ON A.request_at=B.request_at
 ```
-

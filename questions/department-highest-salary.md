@@ -33,4 +33,3 @@ FROM (
 WHERE 
     salary_rank = 1;
 ```
-

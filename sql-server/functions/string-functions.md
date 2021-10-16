@@ -1,35 +1,34 @@
 # String Functions
 
-| Function | Description |
-| :--- | :--- |
-| [ASCII](https://www.w3schools.com/sql/func_sqlserver_ascii.asp) | Returns the ASCII value for the specific character |
-| [CHAR](https://www.w3schools.com/sql/func_sqlserver_char.asp) | Returns the character based on the ASCII code |
-| [CHARINDEX](https://www.w3schools.com/sql/func_sqlserver_charindex.asp) | Returns the position of a substring in a string |
-| [CONCAT](https://www.w3schools.com/sql/func_sqlserver_concat.asp) | Adds two or more strings together |
-| [Concat with +](https://www.w3schools.com/sql/func_sqlserver_concat_with_plus.asp) | Adds two or more strings together |
-| [CONCAT\_WS](https://www.w3schools.com/sql/func_sqlserver_concat_ws.asp) | Adds two or more strings together with a separator |
-| [DATALENGTH](https://www.w3schools.com/sql/func_sqlserver_datalength.asp) | Returns the number of bytes used to represent an expression |
-| [DIFFERENCE](https://www.w3schools.com/sql/func_sqlserver_difference.asp) | Compares two SOUNDEX values, and returns an integer value |
-| [FORMAT](https://www.w3schools.com/sql/func_sqlserver_format.asp) | Formats a value with the specified format |
-| [LEFT](https://www.w3schools.com/sql/func_sqlserver_left.asp) | Extracts a number of characters from a string \(starting from left\) |
-| [LEN](https://www.w3schools.com/sql/func_sqlserver_len.asp) | Returns the length of a string |
-| [LOWER](https://www.w3schools.com/sql/func_sqlserver_lower.asp) | Converts a string to lower-case |
-| [LTRIM](https://www.w3schools.com/sql/func_sqlserver_ltrim.asp) | Removes leading spaces from a string |
-| [NCHAR](https://www.w3schools.com/sql/func_sqlserver_nchar.asp) | Returns the Unicode character based on the number code |
-| [PATINDEX](https://www.w3schools.com/sql/func_sqlserver_patindex.asp) | Returns the position of a pattern in a string |
-| [QUOTENAME](https://www.w3schools.com/sql/func_sqlserver_quotename.asp) | Returns a Unicode string with delimiters added to make the string a valid SQL Server delimited identifier |
-| [REPLACE](https://www.w3schools.com/sql/func_sqlserver_replace.asp) | Replaces all occurrences of a substring within a string, with a new substring |
-| [REPLICATE](https://www.w3schools.com/sql/func_sqlserver_replicate.asp) | Repeats a string a specified number of times |
-| [REVERSE](https://www.w3schools.com/sql/func_sqlserver_reverse.asp) | Reverses a string and returns the result |
-| [RIGHT](https://www.w3schools.com/sql/func_sqlserver_right.asp) | Extracts a number of characters from a string \(starting from right\) |
-| [RTRIM](https://www.w3schools.com/sql/func_sqlserver_rtrim.asp) | Removes trailing spaces from a string |
-| [SOUNDEX](https://www.w3schools.com/sql/func_sqlserver_soundex.asp) | Returns a four-character code to evaluate the similarity of two strings |
-| [SPACE](https://www.w3schools.com/sql/func_sqlserver_space.asp) | Returns a string of the specified number of space characters |
-| [STR](https://www.w3schools.com/sql/func_sqlserver_str.asp) | Returns a number as string |
-| [STUFF](https://www.w3schools.com/sql/func_sqlserver_stuff.asp) | Deletes a part of a string and then inserts another part into the string, starting at a specified position |
-| [SUBSTRING](https://www.w3schools.com/sql/func_sqlserver_substring.asp) | Extracts some characters from a string |
-| [TRANSLATE](https://www.w3schools.com/sql/func_sqlserver_translate.asp) | Returns the string from the first argument after the characters specified in the second argument are translated into the characters specified in the third argument. |
-| [TRIM](https://www.w3schools.com/sql/func_sqlserver_trim.asp) | Removes leading and trailing spaces \(or other specified characters\) from a string |
-| [UNICODE](https://www.w3schools.com/sql/func_sqlserver_unicode.asp) | Returns the Unicode value for the first character of the input expression |
-| [UPPER](https://www.w3schools.com/sql/func_sqlserver_upper.asp) | Converts a string to upper-case |
-
+| Function                                                                           | Description                                                                                                                                                          |
+| ---------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [ASCII](https://www.w3schools.com/sql/func_sqlserver_ascii.asp)                    | Returns the ASCII value for the specific character                                                                                                                   |
+| [CHAR](https://www.w3schools.com/sql/func_sqlserver_char.asp)                      | Returns the character based on the ASCII code                                                                                                                        |
+| [CHARINDEX](https://www.w3schools.com/sql/func_sqlserver_charindex.asp)            | Returns the position of a substring in a string                                                                                                                      |
+| [CONCAT](https://www.w3schools.com/sql/func_sqlserver_concat.asp)                  | Adds two or more strings together                                                                                                                                    |
+| [Concat with +](https://www.w3schools.com/sql/func_sqlserver_concat_with_plus.asp) | Adds two or more strings together                                                                                                                                    |
+| [CONCAT_WS](https://www.w3schools.com/sql/func_sqlserver_concat_ws.asp)            | Adds two or more strings together with a separator                                                                                                                   |
+| [DATALENGTH](https://www.w3schools.com/sql/func_sqlserver_datalength.asp)          | Returns the number of bytes used to represent an expression                                                                                                          |
+| [DIFFERENCE](https://www.w3schools.com/sql/func_sqlserver_difference.asp)          | Compares two SOUNDEX values, and returns an integer value                                                                                                            |
+| [FORMAT](https://www.w3schools.com/sql/func_sqlserver_format.asp)                  | Formats a value with the specified format                                                                                                                            |
+| [LEFT](https://www.w3schools.com/sql/func_sqlserver_left.asp)                      | Extracts a number of characters from a string (starting from left)                                                                                                   |
+| [LEN](https://www.w3schools.com/sql/func_sqlserver_len.asp)                        | Returns the length of a string                                                                                                                                       |
+| [LOWER](https://www.w3schools.com/sql/func_sqlserver_lower.asp)                    | Converts a string to lower-case                                                                                                                                      |
+| [LTRIM](https://www.w3schools.com/sql/func_sqlserver_ltrim.asp)                    | Removes leading spaces from a string                                                                                                                                 |
+| [NCHAR](https://www.w3schools.com/sql/func_sqlserver_nchar.asp)                    | Returns the Unicode character based on the number code                                                                                                               |
+| [PATINDEX](https://www.w3schools.com/sql/func_sqlserver_patindex.asp)              | Returns the position of a pattern in a string                                                                                                                        |
+| [QUOTENAME](https://www.w3schools.com/sql/func_sqlserver_quotename.asp)            | Returns a Unicode string with delimiters added to make the string a valid SQL Server delimited identifier                                                            |
+| [REPLACE](https://www.w3schools.com/sql/func_sqlserver_replace.asp)                | Replaces all occurrences of a substring within a string, with a new substring                                                                                        |
+| [REPLICATE](https://www.w3schools.com/sql/func_sqlserver_replicate.asp)            | Repeats a string a specified number of times                                                                                                                         |
+| [REVERSE](https://www.w3schools.com/sql/func_sqlserver_reverse.asp)                | Reverses a string and returns the result                                                                                                                             |
+| [RIGHT](https://www.w3schools.com/sql/func_sqlserver_right.asp)                    | Extracts a number of characters from a string (starting from right)                                                                                                  |
+| [RTRIM](https://www.w3schools.com/sql/func_sqlserver_rtrim.asp)                    | Removes trailing spaces from a string                                                                                                                                |
+| [SOUNDEX](https://www.w3schools.com/sql/func_sqlserver_soundex.asp)                | Returns a four-character code to evaluate the similarity of two strings                                                                                              |
+| [SPACE](https://www.w3schools.com/sql/func_sqlserver_space.asp)                    | Returns a string of the specified number of space characters                                                                                                         |
+| [STR](https://www.w3schools.com/sql/func_sqlserver_str.asp)                        | Returns a number as string                                                                                                                                           |
+| [STUFF](https://www.w3schools.com/sql/func_sqlserver_stuff.asp)                    | Deletes a part of a string and then inserts another part into the string, starting at a specified position                                                           |
+| [SUBSTRING](https://www.w3schools.com/sql/func_sqlserver_substring.asp)            | Extracts some characters from a string                                                                                                                               |
+| [TRANSLATE](https://www.w3schools.com/sql/func_sqlserver_translate.asp)            | Returns the string from the first argument after the characters specified in the second argument are translated into the characters specified in the third argument. |
+| [TRIM](https://www.w3schools.com/sql/func_sqlserver_trim.asp)                      | Removes leading and trailing spaces (or other specified characters) from a string                                                                                    |
+| [UNICODE](https://www.w3schools.com/sql/func_sqlserver_unicode.asp)                | Returns the Unicode value for the first character of the input expression                                                                                            |
+| [UPPER](https://www.w3schools.com/sql/func_sqlserver_upper.asp)                    | Converts a string to upper-case                                                                                                                                      |

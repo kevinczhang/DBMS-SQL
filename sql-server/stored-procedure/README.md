@@ -61,4 +61,3 @@ END;
 ```sql
 DROP PROCEDURE sp_name;
 ```
-

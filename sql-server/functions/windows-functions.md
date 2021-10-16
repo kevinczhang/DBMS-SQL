@@ -13,7 +13,7 @@ DENSE_RANK() OVER (
 
 * First, the `PARTITION BY` clause divides the result set produced by the `FROM` clause into partitions.
 * Then, The `ORDER BY` specifies the order of rows in each partition.
-* Finally, the `DENSE_RANK(`\) function is applied to the rows in the specified order of each partition. It resets the rank when the partition boundary is crossed.
+* Finally, the `DENSE_RANK(`) function is applied to the rows in the specified order of each partition. It resets the rank when the partition boundary is crossed.
 
 ```sql
 SELECT
@@ -28,7 +28,7 @@ FROM
     t;
 ```
 
-![](../../.gitbook/assets/image%20%284%29.png)
+![](<../../.gitbook/assets/image (4).png>)
 
 The following statement ranks employees in each department by their salaries:
 
@@ -50,12 +50,12 @@ FROM
 In this example:
 
 * First, the `PARTITION BY` clause divided the employees by department names into partitions.
-* Then, the `ORDER BY` clause sorted the employees in each department \(partition\) by their salaries.
+* Then, the `ORDER BY` clause sorted the employees in each department (partition) by their salaries.
 * Finally, the `DENSE_RANK()` function was applied to each partition to assign the rank to rows based on the salary order.
 
 The following picture shows the partial output of the query:
 
-![SQL DENSE\_RANK Function Over Partition example](https://www.sqltutorial.org/wp-content/uploads/2018/09/SQL-DENSE_RANK-Function-Over-Partition-example.png)
+![SQL DENSE_RANK Function Over Partition example](https://www.sqltutorial.org/wp-content/uploads/2018/09/SQL-DENSE_RANK-Function-Over-Partition-example.png)
 
 If you want to find only employees who have the highest salary in their departments, you just to use a [subquery](https://www.sqltutorial.org/sql-subquery/) in the `FROM` clause as follows:
 
@@ -82,7 +82,7 @@ WHERE
 
 The following output shows the employees who have the highest salary in their department:
 
-![SQL DENSE\_RANK Function find nth highest value](https://www.sqltutorial.org/wp-content/uploads/2018/09/SQL-DENSE_RANK-Function-find-nth-highest-value.png)
+![SQL DENSE_RANK Function find nth highest value](https://www.sqltutorial.org/wp-content/uploads/2018/09/SQL-DENSE_RANK-Function-find-nth-highest-value.png)
 
 ## `ROW_NUMBER()` Function
 
@@ -102,7 +102,7 @@ FROM
 
 The following picture shows the partial result set:
 
-![SQL ROW\_NUMBER Function Example](https://www.sqltutorial.org/wp-content/uploads/2018/09/SQL-ROW_NUMBER-Function-Example.png)
+![SQL ROW_NUMBER Function Example](https://www.sqltutorial.org/wp-content/uploads/2018/09/SQL-ROW_NUMBER-Function-Example.png)
 
 ##  `PERCENT_RANK()` function
 
@@ -110,7 +110,7 @@ The `PERCENT_RANK()` function returns a percentile ranking number which ranges f
 
 For a specific row, `PERCENT_RANK()` uses the following formula to calculate the percentile rank:
 
-\(rank - 1\) / \(total\_rows - 1\)
+(rank - 1) / (total_rows - 1)
 
 In this formula, `rank` is the rank of the row. `total_rows` is the number of rows that are being evaluated.
 
@@ -130,5 +130,4 @@ FROM
 
 The following picture shows the output:
 
-![SQL PERCENT\_RANK Function Over Result Set Example](https://www.sqltutorial.org/wp-content/uploads/2018/09/SQL-PERCENT_RANK-Function-Over-Result-Set-Example.png)
-
+![SQL PERCENT_RANK Function Over Result Set Example](https://www.sqltutorial.org/wp-content/uploads/2018/09/SQL-PERCENT_RANK-Function-Over-Result-Set-Example.png)

@@ -112,5 +112,3 @@ FROM
 DROP FUNCTION [ IF EXISTS ] [ schema_name. ] function_name;
 ```
 
-
-
